@@ -3,6 +3,6 @@ RS = game:GetService("RunService")
 
 RS.RenderStepped:Connect(function()
    local CHAR = PLRS.LocalPlayer.Character
-   Char.Humanoid.WalkSpeed = _G.CurrentWalkSpeed
-    Char.Humanoid.JumpPower = _G.CurrentJumpPower
+   CHAR.Humanoid.WalkSpeed = _G.CurrentWalkSpeed
+   CHAR.Humanoid.JumpPower = _G.CurrentJumpPower
 end)
